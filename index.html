@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BK Technology | Bảo trì Website</title>
+  <link rel="icon" href="img/logo trong suốt.png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url('img/5166950.jpg');
+      background-size: cover;
+      position: relative;
+      color: #fff;
+    }
+
+    /* Overlay mờ để dễ đọc chữ */
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 600px;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .container h1 {
+      font-size: 32px;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+
+    .container p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #ffe082;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline; /* Tuỳ chọn: gạch chân khi hover */
+    } 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="img/logo trong suốt.png" alt="Logo" class="logo" />
+    <h1>Website đang bảo trì</h1>
+    <p>Chúng tôi xin lỗi vì sự bất tiện này. Website hiện đang được bảo trì và nâng cấp để phục vụ bạn tốt hơn.</p>
+    <p>Dự kiến hoạt động trở lại vào: <strong>15:00 ngày 26/05/2025</strong></p>
+    <a href="https://www.facebook.com/profile.php?id=61576264940151">FIFTY STORE</a>
+  </div>
+</body>
+</html>
